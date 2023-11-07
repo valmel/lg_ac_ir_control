@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LG AC remote</title>
+    <meta http-equiv="Refresh" content="60">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <h1>LG AC remote</h1>
+    <p>Temperature: {{ temperature }}°C</p>
+    <p>Humidity: {{ humidity }}%</p>
+
+    <form action="/button" method="post">
+        <button class="btn btn-lg btn-primary" type="submit" name="action" value="on" style="width: 49%;">ON</button>
+        <button class="btn btn-lg btn-danger" type="submit" name="action" value="off" style="width: 49%;">OFF</button>
+    </form>
+</body>
+</html>
