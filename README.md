@@ -3,7 +3,7 @@ LG AC Infrared Remote Control
 
 LG split AC units W09EG.NSJ + W09EG.UA3 without a Wi-Fi option are controled via LIRC.
 First ON/OFF buttons of AKB74955603 remote are mapped using mode2, since irrecord does not work.
-The conf file can be prepared from the raw output of mode2 using this [notebook](/notebooks/mode2_to_conf.ipynb). The resulting [conf file](/system_files/LG_AC.lircd.confd) should be coppied to /etc/lirc/lircd.conf.d directory.
+The conf file can be prepared from the raw output of mode2 using this [notebook](/notebooks/mode2_to_conf.ipynb). The resulting [conf file](/system_files/LG_AC.lircd.conf) should be coppied to /etc/lirc/lircd.conf.d directory.
 
 Hardware:
 
