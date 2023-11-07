@@ -23,7 +23,7 @@ and add these two lines:
 
 where you supply your path to the scripts. It is also advisable to use cron to reboot the Raspberry Pi Zero regularly, for example, once a month.
 
-Moreover, I have implemented a minimalistic Flask-based remote control [web app](/lg_remote). After instalation, it is accesible locally at https://hostname.local, where hostname is your Raspberry Pi Zero hostname.
+Moreover, I have implemented a minimalistic Flask-based remote control [web app](/lg_remote). After instalation, it is accesible locally at http://hostname.local, where hostname is your Raspberry Pi Zero hostname.
 
 To make it run:
 
